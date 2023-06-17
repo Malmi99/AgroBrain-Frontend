@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.alert {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+h1 {
+  font-size: 46px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+            body {
+              background: linear-gradient(to bottom,#f9fafb, #76c390, #5fac57);
+              /* The above line sets a linear gradient background that goes from #00bfff to #1e90ff from top to bottom. */
+            }
+/* body {
+  background-color: #e2e2d8;
+  /* background-image: url("images/12.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(15, 14, 14); */
+/* }  */
+.Button {
+  /* background-color: #e2e538;
+  height: 40px;
+  width: 50; */
+  /* color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 16px;
+  font-size: 16px; */
+  /* cursor: pointer;
+  transition: background-color 0.2s ease-in-out; */
+}
+.Button {
+  /* cursor: pointer; */
+  /* height: 50px; */
+  /* width: 50px; */
+}
+.recommend_btn {
+  background-color: #97dc99;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 500px;
+}
+
+.recommend_btn:hover {
+  background-color: #13a118;
+  color: #f8f8f8;
+}
+.card {
+  background-image: url("images/120.jpg");
+  background-color: transparent;
+  height:500px;
+  width: 450px;
+  border-radius: 19px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(2, 2, 2, 2);
+}
+/* .Button:hover {
+  background-color: #4caf50;
+} */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.h5{
+  align-items: left;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #000;
+}
+
